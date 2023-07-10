@@ -6,7 +6,7 @@
 
     <application>
 
-        <activity android:name=".TestActivityForNFCLib">
+        <activity android:name=".TestActivityForNFCLib" android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
